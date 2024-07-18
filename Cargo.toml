@@ -1,0 +1,10 @@
+[package]
+name = "axum_session_dynamodb"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws-config = { version = "1.5" }
+aws-sdk-dynamodb = { version = "1.38" }
+axum_session = { version = "0.14" }
+async-trait = "0.1"
